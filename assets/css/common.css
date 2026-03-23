@@ -1,0 +1,13 @@
+/* 공통적인 css - Style.css 위 */
+/* Skip 메뉴*/
+/* 가운데 영역 */
+.container {
+  width: 1280px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Row 영역 */
+.row {
+  padding: 0 16px;
+}
