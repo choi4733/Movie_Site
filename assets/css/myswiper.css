@@ -29,10 +29,14 @@
     height: 13px;
     /* --swiper-navigation-size: 20px; */
   }
-  .hero .swiper-horizontal > .swiper-pagination-bullets,
+  /* .hero .swiper-horizontal > .swiper-pagination-bullets,
   .hero .swiper-pagination-horizontal .swiper-pagination-bullets {
     .swiper-pagination-bullet {
       margin: 0 10px;
     }
+  } */
+  .hero .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+  .hero.swiper-horizontal .swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 10px;
   }
 }
