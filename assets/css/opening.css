@@ -1,0 +1,135 @@
+/* opening */
+.opening {
+  padding: 100px 0;
+  text-align: center;
+  color: #bc9a51;
+}
+.opening h2 {
+  margin-bottom: 5px;
+}
+.opening h2 span.grand {
+  display: inline-block;
+  width: 395px;
+  height: 45px;
+  background-position-y: -123px;
+}
+.opening .date {
+  display: inline-block;
+  font-size: 30px;
+  margin-bottom: 2px;
+}
+.opening .desc {
+  font-size: 35px;
+  font-weight: 300;
+  background: url(../img/bar.png) no-repeat bottom center;
+  background-size: 75%;
+  margin-bottom: 50px;
+  padding-bottom: 10px;
+}
+.open_box {
+  display: flex;
+  /* gap: 145px; */
+  justify-content: space-around;
+  padding: 0 3%;
+}
+.open_box > div {
+  border: 1px solid #c8c8c8;
+  color: #fff;
+  width: 25%;
+  background: rgba(0, 0, 0, 0.4);
+  /* flex: 1; */
+  /* position: relative; */
+}
+.open_box > div h3 {
+  display: inline-block;
+  font-size: 19px;
+  font-weight: 200;
+  padding: 10px 20px;
+  background-color: #38116a;
+  border: 1px solid #6f2bc7;
+  /* position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%); */
+  margin-top: -25px;
+}
+.open_box > div p {
+  font-size: 23px;
+  font-weight: 300;
+  padding: 6% 0 10% 0;
+}
+.open_box > div p em {
+  display: block;
+}
+.open_box > div p strong {
+  display: block;
+}
+
+/* 미디어 쿼리 */
+@media (max-width: 1300px) {
+  .container {
+    width: 100%;
+  }
+}
+@media (max-width: 1024px) {
+}
+@media (max-width: 960px) {
+  .opening {
+    padding: 50px 0;
+  }
+  .opening h2 span.grand {
+    width: 302px;
+    height: 35px;
+    background-position: 0 -167px;
+  }
+  .open_box > div {
+    width: 30%;
+  }
+  .opening .date {
+    font-size: 25x;
+  }
+  .opening .desc {
+    font-size: 25px;
+  }
+  .open_box > div p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .opening {
+    padding: 25px 0;
+  }
+  .opening h2 span.grand {
+    width: 150px;
+    height: 16px;
+    background-position: 0 -204px;
+  }
+  #opening .row {
+    padding: 0 24px;
+  }
+  .open_box {
+    display: none;
+  }
+  .opening .desc {
+    margin-bottom: 0;
+    font-size: 22px;
+    word-break: keep-all;
+    /* 단어 단위로 줄바꿈 (한글 권장) */
+    line-height: 1.1;
+  }
+  .opening .date {
+    font-size: 22px;
+  }
+}
+@media (max-width: 600px) {
+  .opening {
+    padding: 16px;
+  }
+  .opening .row {
+    padding: 0 16px;
+  }
+}
+@media (max-width: 480px) {
+}
+@media (max-width: 320px) {
+}
