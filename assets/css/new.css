@@ -122,10 +122,21 @@
   background: #fff;
   border: 1px solid #38116a;
 }
+.new_right .btn:hover a.white {
+  background: #38116a;
+  border: 1px solid #fff;
+  color: #fff;
+}
 .new_right .btn a.purple {
   background: #38116a;
   color: #fff;
 }
+.new_right .btn:hover a.purple {
+  background: #fff;
+  color: #38116a;
+  border: 1px solid #38116a;
+}
+
 .new .bar {
   position: relative;
   margin-right: 20px;

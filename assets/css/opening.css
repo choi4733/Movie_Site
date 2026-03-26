@@ -39,6 +39,18 @@
   background: rgba(0, 0, 0, 0.4);
   /* flex: 1; */
   /* position: relative; */
+  /* opacity: 0; */
+  transform: scale(0.8);
+  transition: transform 0.5s;
+}
+.open_box > div:nth-child(2) {
+  transition-delay: 0.2s;
+}
+.open_box > div:nth-child(3) {
+  transition-delay: 0.3s;
+}
+.open_box > div.tang {
+  transform: scale(1);
 }
 .open_box > div h3 {
   display: inline-block;
@@ -85,6 +97,7 @@
   .open_box > div {
     width: 30%;
   }
+
   .opening .date {
     font-size: 25x;
   }
