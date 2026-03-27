@@ -8,6 +8,7 @@
   left: 0;
   z-index: 200;
   backdrop-filter: blur(20px);
+  transition: all 0.2s;
 }
 #header .active {
   background: #ffffff;
@@ -29,7 +30,7 @@
   padding: 24px;
 }
 #new {
-  padding: 24px;
+  padding: 0 24px;
 }
 #help {
   padding: 24px;

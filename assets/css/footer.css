@@ -61,40 +61,40 @@
   width: 29px;
   height: 29px;
 }
-.footer_sns ul li.s1 {
+.footer_sns ul li.s1:hover {
   background-position: 0px -238px;
 }
-.footer_sns ul li.s2 {
+.footer_sns ul li.s2:hover {
   background-position: -29px -238px;
 }
-.footer_sns ul li.s3 {
+.footer_sns ul li.s3:hover {
   background-position: -58px -238px;
 }
-.footer_sns ul li.s4 {
+.footer_sns ul li.s4:hover {
   background-position: -87px -238px;
 }
-.footer_sns ul li.s5 {
+.footer_sns ul li.s5:hover {
   background-position: -116px -238px;
 }
-.footer_sns ul li.s6 {
+.footer_sns ul li.s6:hover {
   background-position: -145px -238px;
 }
-.footer_sns ul li.s1:hover {
+.footer_sns ul li.s1 {
   background-position: 0px -267px;
 }
-.footer_sns ul li.s2:hover {
+.footer_sns ul li.s2 {
   background-position: -29px -267px;
 }
-.footer_sns ul li.s3:hover {
+.footer_sns ul li.s3 {
   background-position: -58px -267px;
 }
-.footer_sns ul li.s4:hover {
+.footer_sns ul li.s4 {
   background-position: -87px -267px;
 }
-.footer_sns ul li.s5:hover {
+.footer_sns ul li.s5 {
   background-position: -116px -267px;
 }
-.footer_sns ul li.s6:hover {
+.footer_sns ul li.s6 {
   background-position: -145px -267px;
 }
 
