@@ -59,17 +59,18 @@ select:hover {
   top: 0;
   right: 0;
   z-index: 300;
+  display: none;
 }
 .ham {
   display: block;
   font-size: 30px;
   color: #38116a;
-  padding: 10px 15px;
+  padding: 7px 15px;
   position: absolute;
   right: 0;
 }
 #mNav ul {
-  width: 250px;
+  width: 150px;
   height: 100vh;
   position: absolute;
   top: 55px;
