@@ -36,7 +36,7 @@
 .bm_left ul li.total a {
   border: 1px solid #fff;
   transition: all 0.3s;
-  padding: 3px 10px 3px 10px;
+  padding: 4px 10px 3px 10px;
   font-size: 14px;
 }
 .bm_left ul li.total a:hover {
@@ -75,7 +75,7 @@
 .bm_right ul:nth-child(2) li.white a {
   background: #fff;
   color: #38116a;
-  /* border: 1px solid #38116a; */
+  border: 1px solid #38116a;
   padding: 7px 15px;
 }
 .bm_right ul:nth-child(2) li.purple a {
@@ -238,8 +238,6 @@
   }
 }
 @media (max-width: 768px) {
-}
-@media (max-width: 600px) {
   .bm_right ul:nth-child(2) li.white a,
   .bm_right ul:nth-child(2) li.purple a {
     width: 70px;
@@ -274,12 +272,28 @@
     height: 400px;
   }
 }
+@media (max-width: 600px) {
+}
 @media (max-width: 480px) {
+  .banner_menu {
+    top: 10px;
+  }
   .hero .swiper-wrapper {
     height: 200px;
   }
   .slider h2 {
-    margin-top: 50px;
+    font-size: 20px;
+    margin-top: 60px;
+  }
+  .slider h2 em {
+    font-size: 18px;
+  }
+  .slider p {
+    font-size: 16px;
+    padding-top: 15px;
+  }
+  .slider h2::after {
+    bottom: -10px;
   }
 }
 @media (max-width: 320px) {

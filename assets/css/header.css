@@ -57,7 +57,7 @@
     padding: 17px 10px;
   }
   .header h1 em {
-    padding-top: 11px;
+    padding: 12px 8px 5px 0;
   }
 }
 @media (max-width: 1024px) {
